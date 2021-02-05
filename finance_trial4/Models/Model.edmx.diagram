@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7269078734b647ad97954c3fd6ff1772" Name="Diagram1">
+        <EntityTypeShape EntityType="financedbModel.adminMaster" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.CardTypeMaster" Width="1.5" PointX="1.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.Customer" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.EMIcard" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.EMItypeMaster" Width="1.5" PointX="0.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.order" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.productFAQ" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.productsMaster" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="financedbModel.Transaction" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="financedbModel.FK__Customer__cardty__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__EMIcard__custome__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__orders__customer__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__orders__EMItype___5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__orders__product___534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__Transacti__order__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="financedbModel.FK__productFA__produ__5BE2A6F2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
